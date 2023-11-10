@@ -9,7 +9,7 @@ import { useState } from 'react';
 import MenuContainer from './MenuContainer';
 import CartContainer from './CartContainer';
 const MainContainer = () => {
-  const [{ foodItems, cartShow}, dispatch] = useStateValue();
+  const [{ foodItems, cartShow}] = useStateValue();
   const [scrollValue, setScrollValue] = useState(0);
 
   useEffect(() => {}, [scrollValue,cartShow]);

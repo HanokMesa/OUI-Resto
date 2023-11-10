@@ -9,7 +9,7 @@ import RowContainer from './RowContainer';
 
 const MenuContainer = () => {
     const [filter, setFilter] = useState("chicken");
-    const [{ foodItems }, dispatch] = useStateValue();
+    const [{ foodItems }] = useStateValue();
   return (
     <section className="w-full my-6" id="menu">
     <div className="w-full flex flex-col items-center justify-center">
@@ -58,7 +58,7 @@ const MenuContainer = () => {
       <div className="w-full">
           <RowContainer
             flag={false}
-            data={foodItems?.filter((n) => n.category == filter)}
+            data={foodItems?.filter((n) => n.category === filter)}
           />
         </div>
     </div>
