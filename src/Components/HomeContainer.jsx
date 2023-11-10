@@ -31,10 +31,7 @@ const HomeContainer = () => {
         </p>
 
         <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima velit
-          eaque fugit distinctio est nam voluptatum architecto, porro iusto
-          deserunt recusandae ipsa minus eos sunt, dolores illo repellat facere
-          suscipit!
+           Welcome to Oui Resto, where we invite you on a culinary journey through the vibrant tapestry of Indian flavors. Immerse yourself in the rich diversity of our menu, spanning spicy curries, aromatic biryanis, and more. With Oui Resto, your favorite Indian dishes are just a few clicks away, delivered promptly to your doorstep. Enjoy the convenience of swift and secure delivery, savoring the essence of India in the comfort of your home.
         </p>
 
         <button
